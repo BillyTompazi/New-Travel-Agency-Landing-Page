@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url('img/tropical-island.jpg');
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+} */
+
+
+
+.my-navbar {
+    background: rgba(0, 0, 0, 0) !important;
+    width: 100%;
+}
+
+.my-navbar .navbar-brand {
+    color: white;
+    margin-left: 10%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white !important;
+  margin-right: 10px;
+  text-transform: uppercase
+}
+
+
+
+.collapsible-navbar {
+    display: flex;
+    width: 0px;
+}
+
+.my-ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
